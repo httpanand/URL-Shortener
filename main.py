@@ -19,3 +19,6 @@ if(content['ok'] == True):
 
 elif(content['error_code'] == 1):
 	print('Url Not Found')
+
+else:
+	print('Try Again')
