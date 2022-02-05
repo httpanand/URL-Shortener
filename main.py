@@ -9,6 +9,7 @@ content = json.loads(response.text)
 
 if(content['ok'] == True):
 	short = content['result']['short_link']
+	
 	printable = f'''
 			Shortened Url --> https://{short}
 	'''
