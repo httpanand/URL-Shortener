@@ -17,7 +17,6 @@ if(content['ok'] == True):
 	with open("shortened_url.txt","w") as file:
 		file.write(short)
 		file.close()
-
 elif(content['error_code'] == 1):
 	print('Url Not Found')
 
